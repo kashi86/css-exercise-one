@@ -1,15 +1,15 @@
-body
+body {
   font-size: 14px;
 }
 
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
 
-section{
+section {
   margin: 0 auto;
   width: 60%;
 }
@@ -25,15 +25,12 @@ h1 {
   font-size: 1.3em;
 }
 
-/* Last three div-color green */
-.element:nth-child(7)
-.element:nth-child(8)
-.element:nth-last-of-type(9) {
-  background-color: green;
-}
-
-.element{
+.element {
   height: 100px;
   margin: 10px 0;
   width: 100%;
+}
+
+.last-three {
+  background-color: green;
 }
